@@ -1,5 +1,7 @@
 # wallpaper
 
+![](https://github.com/jcardama/flutter-wallpaper-app/workflows/test/badge.svg?branch=develop)
+
 Flutter wallpaper app
 
 ## Getting Started
