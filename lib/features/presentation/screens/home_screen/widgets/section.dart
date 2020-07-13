@@ -43,7 +43,7 @@ class _SectionState extends State<Section> {
                   child: Ink(
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: NetworkImage(widget.items.elementAt(index)),
+                        image: AssetImage(widget.items.elementAt(index)),
                         fit: BoxFit.cover,
                       ),
                       borderRadius: BorderRadius.circular(16),

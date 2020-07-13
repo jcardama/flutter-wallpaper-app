@@ -18,7 +18,7 @@ class WallpaperScreen extends StatelessWidget {
       extendBodyBehindAppBar: true,
       body: Container(
         height: MediaQuery.of(context).size.height,
-        child: Image.network(
+        child: Image.asset(
           image,
           fit: BoxFit.cover,
         ),
