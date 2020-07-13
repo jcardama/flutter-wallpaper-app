@@ -1,7 +1,15 @@
 
-name: test
+name: tests
 
-on: [pull_request]
+on:
+  push:
+    branches:
+      - develop
+      - master
+  pull_request:
+    branches:
+      - master
+      - develop
 jobs:
   test:
     name: Test on ${{ matrix.os }}
@@ -22,4 +30,3 @@ jobs:
       - run: flutter --version
       - run: flutter pub get
       - run: flutter test
-      - run: flutter build apk
